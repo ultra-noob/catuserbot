@@ -13,7 +13,7 @@ import userbot.plugins.sql_helper.pmpermit_sql as pmpermit_sql
 from . import PM_START, PMMESSAGE_CACHE, mention, set_key
 
 PREV_REPLY_MESSAGE = {}
-PM = f"""Hello. You are accessing the availabe menu of my master, {mention}.
+PM = f"""Hello ediot. You are accessing the availabe menu of my piroo master, {mention}.
 __Let's make this smooth and let me know why you are here.__
 **Choose one of the following reasons why you are here:**
 `a`. To chat with my master
