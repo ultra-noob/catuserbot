@@ -12,7 +12,7 @@ from . import CMD_LIST, catalive
 CAT_IMG = Config.ALIVE_PIC or None
 TEXT_TO_DISPLAY_IN_HELP = (
     Config.TEXT_TO_DISPLAY_IN_HELP
-    or "Yeh mera maal hai Bsdk !! Haat kese laga diya be tune ise? Jaa bhag yha se chumtmarike randi ke bacche \n\nNikal, tera khandaan chod dung Lawde..."
+    or "Yeh mera maal hai Bsdk !! Haat kese laga diya be tune ise? Jaa bhag yha se chumtmarike randi ke bacche \n\nNikal, tera khandaan chod dunga Lawde..."
 )
 BTN_URL_REGEX = re.compile(r"(\[([^\[]+?)\]\<buttonurl:(?:/{0,2})(.+?)(:same)?\>)")
 
