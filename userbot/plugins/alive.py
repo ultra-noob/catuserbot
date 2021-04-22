@@ -6,7 +6,7 @@ from telethon import version
 from . import StartTime, catversion, get_readable_time, hmention, mention, reply_id
 
 CAT_IMG = Config.ALIVE_PIC
-CUSTOM_ALIVE_TEXT = Config.CUSTOM_ALIVE_TEXT or "✮ MY BOT IS RUNNING SUCCESSFULLY ✮"
+CUSTOM_ALIVE_TEXT = Config.CUSTOM_ALIVE_TEXT or "✮ MY BOT IS RUNNING SUCCESSFULLY And It is Fast As Fuc*k Boi ✮"
 EMOJI = Config.CUSTOM_ALIVE_EMOJI or "✧✧"
 
 
@@ -32,7 +32,7 @@ async def amireallyalive(alive):
             f"<b>{EMOJI} Catuserbot Version :</b> <code>{catversion}</code>\n"
         )
         cat_caption += f"<b>{EMOJI} Database :</b> <code>{check_sgnirts}</code>\n\n"
-        cat_caption += "    <a href = https://github.com/sandy1709/catuserbot><b>GoodCat</b></a> | <a href = https://github.com/Jisan09/catuserbot><b>BadCat</b></a> | <a href = https://t.me/catuserbot_support><b>Support</b></a>"
+        cat_caption += "    <a href = t.me/Ravanuserbot><b>RavanUserbot</b></a> | <a href = https://github.com/Jisan09/catuserbot><b>credits</b></a> | <a href = https://t.me/FireLordOp><b>AboutFireLord</b></a>"
         await alive.client.send_file(
             alive.chat_id,
             CAT_IMG,
@@ -53,7 +53,7 @@ async def amireallyalive(alive):
             f"<b>{EMOJI} Telethon version :</b> <code>{version.__version__}</code>\n"
             f"<b>{EMOJI} Catuserbot Version :</b> <code>{catversion}</code>\n"
             f"<b>{EMOJI} Database :</b> <code>{check_sgnirts}</code>\n\n"
-            "    <a href = https://github.com/sandy1709/catuserbot><b>GoodCat</b></a> | <a href = https://github.com/Jisan09/catuserbot><b>BadCat</b></a> | <a href = https://t.me/catuserbot_support><b>Support</b></a>",
+            "    <a href = t.me/Ravanuserbot><b>RavanUserbot</b></a> | <a href = https://github.com/Jisan09/catuserbot><b>credits</b></a> | <a href = https://t.me/FireLordOp><b>AboutFireLord</b></a>",
             parse_mode="html",
         )
 
